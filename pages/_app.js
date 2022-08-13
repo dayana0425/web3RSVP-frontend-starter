@@ -25,6 +25,7 @@ const wagmiClient = createClient({
 });
 
 export default function MyApp({ Component, pageProps }) {
+  console.log(chain.polygonMumbai)
   return (
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains}>
