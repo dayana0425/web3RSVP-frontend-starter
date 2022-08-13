@@ -28,7 +28,6 @@ function Event() {
             <p>description</p>
           </div>
           <div className="max-w-xs w-full flex flex-col gap-4 mb-6 lg:mb-0">
-           
             <div className="flex item-center">
               <UsersIcon className="w-6 mr-2" />
               <span className="truncate">
@@ -49,7 +48,6 @@ function Event() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  
                 </a>
               </span>
             </div>

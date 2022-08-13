@@ -18,8 +18,8 @@ export default function Alert({ alertType, alertBody, triggerAlert, color }) {
       enterTo="translate-y-0 opacity-100 sm:-translate-x-2/4"
       leave="transition ease-in duration-100"
       leaveFrom="opacity-100"
-      leaveTo="opacity-0"
-    >
+      leaveTo="opacity-0">
+
       <div
         className="alert z-50 max-w-lg p-3 w-full shadow-lg rounded-lg pointer-events-auto ring-1 ring-black ring-opacity-5 overflow-hidden"
         style={{ backgroundColor: color }}
@@ -39,8 +39,7 @@ export default function Alert({ alertType, alertBody, triggerAlert, color }) {
             <div className="mx-3.5 -my-1.5">
               <button
                 type="button"
-                className="inline-flex rounded-md p-1.5 text-gray-900 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-gray-600"
-              >
+                className="inline-flex rounded-md p-1.5 text-gray-900 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-gray-600">
                 <span className="sr-only">Dismiss</span>
                 <XIcon
                   className="h-5 w-5"
